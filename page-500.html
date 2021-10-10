@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartThing Admin</title>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;400;500;700&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/grid.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <!-- side bar  -->
+    <div class="sidebar">
+      <div class="sidebar-logo">
+        <h3>Sramt Thing</h3>
+        <div class="sidebar-close" id="sidebar-close">
+          <i class="ti-arrow-left"></i>
+        </div>
+      </div>
+      <div class="sidebar-user">
+        <div class="sidebar-user-info">
+          <img src="./images/avatar.png" alt="User" class="profile-image">
+          <div class="sidebar-user-name">
+            Tan Dai
+          </div>
+        </div>
+        <a href="" class="btn btn-outline">
+          <i class="ti-power-off"></i>
+        </a>
+      </div>
+      <ul class="sidebar-menu">
+        <li>
+          <a href="">
+            <i class="ti-home"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li class="sidebar-submenu">
+          <a href="" class="sidebar-menu-dropdown">
+            <i class="ti-layers-alt"></i>
+            <span>Quản lý thực đơn</span>
+            <div class="dropdown-icon"></div>
+          </a>
+          <ul class="sidebar-menu sidebar-menu-dropdown-content">
+            <li>
+              <a href="#">Danh mục cấp 1</a>
+            </li>
+            <li>
+              <a href="#">Danh mục cấp 2</a>
+            </li>
+            <li>
+              <a href="#">Thực đơn</a>
+            </li>
+          </ul>
+        </li>
+        <li class="sidebar-submenu">
+          <a href="" class="sidebar-menu-dropdown">
+            <i class="ti-files"></i>
+            <span>Quản lý bài viết</span>
+            <div class="dropdown-icon"></div>
+          </a>
+          <ul class="sidebar-menu sidebar-menu-dropdown-content">
+            <li>
+              <a href="#">Giới thiệu</a>
+            </li>
+            <li>
+              <a href="#">Tại sao chọn chúng tôi</a>
+            </li>
+            <li>
+              <a href="#">Cảm nhận khách hàng</a>
+            </li>
+            <li>
+              <a href="#">Tin tức</a>
+            </li>
+            <li>
+              <a href="#">Chính sách</a>
+            </li>
+          </ul>
+        </li>
+        <li class="sidebar-submenu">
+          <a href="" class="sidebar-menu-dropdown">
+            <i class="ti-email"></i>
+            <span>Quản lý nhận tin</span>
+            <div class="dropdown-icon"></div>
+          </a>
+          <ul class="sidebar-menu sidebar-menu-dropdown-content">
+            <li>
+              <a href="#">Đăng ký nhận tin</a>
+            </li>
+          </ul>
+        </li>
+        <li class="sidebar-submenu">
+          <a href="" class="sidebar-menu-dropdown">
+            <i class="ti-bookmark"></i>
+            <span>Quản lý trang tĩnh</span>
+            <div class="dropdown-icon"></div>
+          </a>
+          <ul class="sidebar-menu sidebar-menu-dropdown-content">
+            <li>
+              <a href="#">slogan</a>
+            </li>
+            <li>
+              <a href="#">slogan menu</a>
+            </li>
+            <li>
+              <a href="#">slogan tại sao chọn chúng tôi</a>
+            </li>
+            <li>
+              <a href="#">slogan album ảnh</a>
+            </li>
+            <li>
+              <a href="#">slogan tin tức</a>
+            </li>
+            <li>
+              <a href="#">Liên hệ</a>
+            </li>
+            <li>
+              <a href="#">fotter</a>
+            </li>
+          </ul>
+        </li>
+        <li class="sidebar-submenu">
+          <a href="" class="sidebar-menu-dropdown">
+            <i class="ti-camera"></i>
+            <span>Quản lý hình ảnh - video</span>
+            <div class="dropdown-icon"></div>
+          </a>
+          <ul class="sidebar-menu sidebar-menu-dropdown-content">
+            <li>
+              <a href="#">Logo</a>
+            </li>
+            <li>
+              <a href="#">Banner quảng cáo</a>
+            </li>
+            <li>
+              <a href="#">favicon</a>
+            </li>
+            <li>
+              <a href="#">slideshow</a>
+            </li>
+            <li>
+              <a href="#">Album ảnh</a>
+            </li>
+            <li>
+              <a href="#">Mạng xã hội</a>
+            </li>
+          </ul>
+        </li>
+        <li class="sidebar-submenu">
+          <a href="" class="sidebar-menu-dropdown">
+            <i class="ti-user"></i>
+            <span>Quản lý user</span>
+            <div class="dropdown-icon"></div>
+          </a>
+          <ul class="sidebar-menu sidebar-menu-dropdown-content">
+            <li>
+              <a href="#">Thông tin admin</a>
+            </li>
+          </ul>
+        </li>
+        <li class="sidebar-submenu">
+          <a href="" class="sidebar-menu-dropdown active">
+            <i class="ti-layout-slider-alt"></i>
+            <span>Page</span>
+            <div class="dropdown-icon"></div>
+          </a>
+          <ul class="sidebar-menu sidebar-menu-dropdown-content active">
+            <li>
+              <a href="page-404.html">Error 404</a>
+            </li>
+            <li>
+              <a href="page-500.html">Error 500</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">
+            <i class="ti-pulse"></i>
+            <span>Thiết lập thông tin</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- end side bar  -->
+
+    <!-- main content -->
+    <div class="main">
+      <div class="main-header">
+        <div class="mobile-toggle" id="mobile-toggle">
+          <i class="ti-menu"></i>
+        </div>
+        <div class="main-title">
+          Error 500
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="row">
+          <div class="col-12 col-md-12 col-sm-12">
+            <div class="box f-height">
+              <div class="box-header">
+                <div class="error-header">
+                  <h1 class="error-500-text">500</h1>
+                  <h3 class="error-500-header">Internal Server Error</h3>
+                </div>
+              </div>
+              <div class="box-body error-body">
+                <p>Why not try refreshing your page? or you can contact <br> <a href="" class="error-link">Support</a></p>
+              </div>
+              <div class="box-footer error-btn">
+                <button class="btn btn-outline btn-error-404">
+                  <i class="ti-back-left"></i>
+                  <p>Return home</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end main content -->
+
+    <div class="overlay"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/chart.js"></script>
+</body>
+</html>
