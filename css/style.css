@@ -152,7 +152,7 @@
 }
 
 .sidebar-menu-dropdown-content.active {
-  height: 100px;
+  height: 200px;
 }
 /* End Sidebar */
 
@@ -423,15 +423,4 @@
   font-size: 1.6rem;
 }
 
-.order-btn {
-  display: flex;
-}
-
-.btn-order-detail {
-  display: flex;
-}
-
-.btn-order-detail i {
-  margin-right: 6px;
-}
 /* end order-detail */

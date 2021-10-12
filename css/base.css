@@ -69,6 +69,10 @@ button + button {
   margin-top: 32px;
 }
 
+.mr-8 {
+  margin-right: 8px;
+}
+
 .text-uppercase {
   text-transform: uppercase;
 }
@@ -122,16 +126,19 @@ button + button {
 .btn-priamry {
   color: var(--while);
   background-color: var(--priamry);
+  border-radius: 3px;
 }
 
 .btn-danger {
   color: var(--while);
   background-color: var(--danger);
+  border-radius: 3px;
 }
 
 .btn-secondary {
   color: var(--while);
   background-color: var(--secondary);
+  border-radius: 3px;
 }
 
 .box {
@@ -162,6 +169,10 @@ button + button {
 .text-second {
   color: var(--text-second-color);
   font-size: 1.6rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .f-height {
@@ -202,12 +213,86 @@ table td {
   display: block;
 }
 
+.icon-copy {
+  font-size: 1.8rem;
+  color: var(--success);
+}
+
 .icon-edit {
   font-size: 1.8rem;
-  color: #0c81e8;
+  color: var(--priamry);
 }
 
 .icon-delete {
   font-size: 1.8rem;
-  color: #eb1734;
+  color: var(--danger);
+}
+
+.table-input-text {
+  width: 40px;
+  padding: 0px 6px;
+  height: 25px;
+  border: 1px solid var(--border-color);
+  outline: none;
+}
+
+.table-img {
+  width: 45px;
+  height: 45px;
+}
+
+.table-title {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.table-btn {
+  background-color: var(--success);
+  color: var(--while);
+  min-width: 60px;
+  height: 25px;
+}
+
+.table-search {
+  display: flex;
+}
+
+.table-search input {
+  width: 30%;
+  max-width: 90%;
+  height: 35px;
+  max-height: 46px;
+  border-radius: 3px;
+  border: 1px solid var(--border-color);
+  outline: none;
+  padding: 0 8px;
+  font-size: 1.4rem;
+  color: var(--black);
+}
+
+.table-icon {
+  width: 35px;
+  height: 35px;
+  background-color: var(--priamry);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  color: var(--while);
+  cursor: pointer;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.box-btn {
+  display: flex;
+}
+
+.btn-icon-text {
+  display: flex;
+}
+
+.btn-icon-text i{
+  margin-right: 10px;
 }
