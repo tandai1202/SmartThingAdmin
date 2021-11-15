@@ -258,7 +258,7 @@
                                 <label class="form-label" for="OrderNotes">
                                   Description
                                 </label>
-                                <textarea name="" id="OrderNotes" cols="30" rows="7" class="form-textarea"></textarea>
+                                <textarea name="OrderNotes" id="OrderNotes" cols="30" rows="7" class="form-textarea"></textarea>
                               </div>
                             </div>
                           </div>
@@ -344,5 +344,9 @@
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   <script src="./js/app.js"></script>
   <script src="./js/chart.js"></script>
+  <script src="./ckeditor/ckeditor.js"></script>
+  <script>
+    CKEDITOR.replace( 'OrderNotes' );
+  </script>
 </body>
 </html>
