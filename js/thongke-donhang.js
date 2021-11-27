@@ -1,73 +1,91 @@
 var options = {
   series: [{
-  data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380]
+  name: 'Số lượng',
+  type: 'column',
+  data: [1.4, 2, 2.5, 1.5, 2.5, 2.8, 3.8, 4.6]
+}, {
+  name: 'doanh thu',
+  type: 'column',
+  data: [1.1, 3, 3.1, 4, 4.1, 4.9, 6.5, 8.5]
 }],
   chart: {
-  type: 'bar',
-  height: 380
+  height: 350,
+  type: 'line',
+  stacked: false
 },
-plotOptions: {
-  bar: {
-    barHeight: '100%',
-    distributed: true,
-    horizontal: true,
-    dataLabels: {
-      position: 'bottom'
-    },
-  }
-},
-colors: ['#33b2df', '#546E7A', '#d4526e', '#13d8aa', '#A5978B', '#2b908f', '#f9a3a4', '#90ee7e',
-  '#f48024', '#69d2e7'
-],
 dataLabels: {
-  enabled: true,
-  textAnchor: 'start',
-  style: {
-    colors: ['#fff']
-  },
-  formatter: function (val, opt) {
-    return opt.w.globals.labels[opt.dataPointIndex] + ":  " + val
-  },
-  offsetX: 0,
-  dropShadow: {
-    enabled: true
-  }
+  enabled: false
 },
 stroke: {
-  width: 1,
-  colors: ['#fff']
-},
-xaxis: {
-  categories: ['South Korea', 'Canada', 'United Kingdom', 'Netherlands', 'Italy', 'France', 'Japan',
-    'United States', 'China', 'India'
-  ],
-},
-yaxis: {
-  labels: {
-    show: false
-  }
+  width: [1, 1, 4]
 },
 title: {
-    text: 'Custom DataLabels',
-    align: 'center',
-    floating: true
+  text: 'Đơn hàng',
+  align: 'left',
+  offsetX: 110
 },
-subtitle: {
-    text: 'Category Names as DataLabels inside bars',
-    align: 'center',
+xaxis: {
+  categories: [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
 },
-tooltip: {
-  theme: 'dark',
-  x: {
-    show: false
-  },
-  y: {
-    title: {
-      formatter: function () {
-        return ''
+yaxis: [
+  {
+    axisTicks: {
+      show: true,
+    },
+    axisBorder: {
+      show: true,
+      color: '#008FFB'
+    },
+    labels: {
+      style: {
+        colors: '#008FFB',
       }
+    },
+    title: {
+      text: "Số lượng",
+      style: {
+        color: '#008FFB',
+      }
+    },
+    tooltip: {
+      enabled: true
     }
-  }
+  },
+  {
+    seriesName: 'Income',
+    opposite: true,
+    axisTicks: {
+      show: true,
+    },
+    axisBorder: {
+      show: true,
+      color: '#00E396'
+    },
+    labels: {
+      style: {
+        colors: '#00E396',
+      }
+    },
+    title: {
+      text: "Doanh thu",
+      style: {
+        color: '#26e7a6',
+      }
+    },
+    
+  },
+],
+tooltip: {
+  fixed: {
+    enabled: true,
+    position: 'topLeft', // topRight, topLeft, bottomRight, bottomLeft
+    offsetY: 30,
+    offsetX: 60
+  },
+},
+legend: {
+  horizontalAlign: 'left',
+  offsetX: 40
 }
 };
 
