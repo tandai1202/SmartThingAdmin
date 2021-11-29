@@ -1,378 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SmartThing Admin</title>
-    <!-- google font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css" />
-    <link rel="stylesheet" href="./css/base.css" />
-    <link rel="stylesheet" href="./css/grid.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
-  </head>
 
-  <body>
-    <!-- side bar  -->
-    <div class="sidebar">
-      <div class="sidebar-logo">
-        <h3>Sramt Thing</h3>
-        <div class="sidebar-close" id="sidebar-close">
-          <i class="ti-arrow-left"></i>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartThing Admin</title>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css" />
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./css/grid.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+  <!-- side bar  -->
+  <div class="sidebar">
+    <div class="sidebar-logo">
+      <h3>Sramt Thing</h3>
+      <div class="sidebar-close" id="sidebar-close">
+        <i class="ti-arrow-left"></i>
       </div>
-      <div class="sidebar-user">
-        <div class="sidebar-user-info">
-          <img src="./images/avatar.png" alt="User" class="profile-image" />
-          <div class="sidebar-user-name">Tan Dai</div>
-        </div>
-        <a href="" class="btn btn-outline">
-          <i class="ti-power-off"></i>
-        </a>
-      </div>
-      <ul class="sidebar-menu">
-        <li>
-          <a href="index.html">
-            <i class="ti-home"></i>
-            <span>Dashboard</span>
-          </a>
-        </li>
-        <li class="sidebar-submenu">
-          <a href="" class="sidebar-menu-dropdown">
-            <i class="ti-layers-alt"></i>
-            <span>Quản lý sản phẩm</span>
-            <div class="dropdown-icon"></div>
-          </a>
-          <ul class="sidebar-menu sidebar-menu-dropdown-content">
-            <li>
-              <a href="#">Danh mục cấp 1</a>
-            </li>
-            <li>
-              <a href="#">Danh mục cấp 2</a>
-            </li>
-            <li>
-              <a href="product.html">Sản phẩm</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="order.html">
-            <i class="ti-truck"></i>
-            <span>Quản lý đơn hàng</span>
-          </a>
-        </li>
-        <li>
-          <a href="user.html" class="active">
-            <i class="ti-truck"></i>
-            <span>Quản lý tài khoản</span>
-          </a>
-        </li>
-        <li class="sidebar-submenu">
-          <a href="" class="sidebar-menu-dropdown">
-            <i class="ti-files"></i>
-            <span>Quản lý bài viết</span>
-            <div class="dropdown-icon"></div>
-          </a>
-          <ul class="sidebar-menu sidebar-menu-dropdown-content">
-            <li>
-              <a href="#">Giới thiệu</a>
-            </li>
-            <li>
-              <a href="#">Tại sao chọn chúng tôi</a>
-            </li>
-            <li>
-              <a href="#">Cảm nhận khách hàng</a>
-            </li>
-            <li>
-              <a href="#">Tin tức</a>
-            </li>
-            <li>
-              <a href="#">Chính sách</a>
-            </li>
-          </ul>
-        </li>
-        <li class="sidebar-submenu">
-          <a href="" class="sidebar-menu-dropdown">
-            <i class="ti-email"></i>
-            <span>Quản lý nhận tin</span>
-            <div class="dropdown-icon"></div>
-          </a>
-          <ul class="sidebar-menu sidebar-menu-dropdown-content">
-            <li>
-              <a href="#">Đăng ký nhận tin</a>
-            </li>
-          </ul>
-        </li>
-        <li class="sidebar-submenu">
-          <a href="" class="sidebar-menu-dropdown">
-            <i class="ti-bookmark"></i>
-            <span>Quản lý trang tĩnh</span>
-            <div class="dropdown-icon"></div>
-          </a>
-          <ul class="sidebar-menu sidebar-menu-dropdown-content">
-            <li>
-              <a href="#">slogan</a>
-            </li>
-            <li>
-              <a href="#">slogan menu</a>
-            </li>
-            <li>
-              <a href="#">slogan tại sao chọn chúng tôi</a>
-            </li>
-            <li>
-              <a href="#">slogan album ảnh</a>
-            </li>
-            <li>
-              <a href="#">slogan tin tức</a>
-            </li>
-            <li>
-              <a href="#">Liên hệ</a>
-            </li>
-            <li>
-              <a href="#">fotter</a>
-            </li>
-          </ul>
-        </li>
-        <li class="sidebar-submenu">
-          <a href="" class="sidebar-menu-dropdown">
-            <i class="ti-camera"></i>
-            <span>Quản lý hình ảnh - video</span>
-            <div class="dropdown-icon"></div>
-          </a>
-          <ul class="sidebar-menu sidebar-menu-dropdown-content">
-            <li>
-              <a href="#">Logo</a>
-            </li>
-            <li>
-              <a href="#">Banner quảng cáo</a>
-            </li>
-            <li>
-              <a href="#">favicon</a>
-            </li>
-            <li>
-              <a href="#">slideshow</a>
-            </li>
-            <li>
-              <a href="#">Album ảnh</a>
-            </li>
-            <li>
-              <a href="#">Mạng xã hội</a>
-            </li>
-          </ul>
-        </li>
-        <li class="sidebar-submenu">
-          <a href="" class="sidebar-menu-dropdown">
-            <i class="ti-user"></i>
-            <span>Quản lý user</span>
-            <div class="dropdown-icon"></div>
-          </a>
-          <ul class="sidebar-menu sidebar-menu-dropdown-content">
-            <li>
-              <a href="#">Thông tin admin</a>
-            </li>
-          </ul>
-        </li>
-        <li class="sidebar-submenu">
-          <a href="" class="sidebar-menu-dropdown">
-            <i class="ti-layout-slider-alt"></i>
-            <span>Page</span>
-            <div class="dropdown-icon"></div>
-          </a>
-          <ul class="sidebar-menu sidebar-menu-dropdown-content">
-            <li>
-              <a href="#">Error 404</a>
-            </li>
-            <li>
-              <a href="#">Error 500</a>
-            </li>
-            <li>
-              <a href="#">Hình ảnh</a>
-            </li>
-            <li>
-              <a href="#">Tin tức sự kiện</a>
-            </li>
-            <li>
-              <a href="#">Liên hệ</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="">
-            <i class="ti-pulse"></i>
-            <span>Thiết lập thông tin</span>
-          </a>
-        </li>
-      </ul>
     </div>
-    <!-- end side bar  -->
-    <!-- main content -->
-    <div class="main">
-      <div class="main-header">
-        <div class="mobile-toggle" id="mobile-toggle">
-          <i class="ti-menu"></i>
-        </div>
-        <div class="main-title">Quản lý sản phẩm</div>
+    <div class="sidebar-user">
+      <div class="sidebar-user-info">
+        <img src="./images/avatar.png" alt="User" class="profile-image" />
+        <div class="sidebar-user-name">Tan Dai</div>
       </div>
-      <div class="main-content">
-        <div class="row">
-          <div class="col-12">
-            <!-- ORDERS TABLE -->
-            <div class="box">
-              <div class="box-header">
-                <div class="box-text">
-                  <p>Chỉnh sửa thông tin</p>
-                  <div class="data-time">
-                    <span>Ngày tạo: 12/12/2001</span>
-                    <span>cập nhập lần cuối: 12/12/2001</span>
-                  </div>
+      <a href="" class="btn btn-outline">
+        <i class="ti-power-off"></i>
+      </a>
+    </div>
+    <ul class="sidebar-menu">
+      <li>
+        <a href="index.html">
+          <i class="ti-home"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li class="sidebar-submenu">
+        <a href="" class="sidebar-menu-dropdown">
+          <i class="ti-layers-alt"></i>
+          <span>Quản lý sản phẩm</span>
+          <div class="dropdown-icon"></div>
+        </a>
+        <ul class="sidebar-menu sidebar-menu-dropdown-content">
+          <li>
+            <a href="#">Danh mục cấp 1</a>
+          </li>
+          <li>
+            <a href="#">Danh mục cấp 2</a>
+          </li>
+          <li>
+            <a href="product.html">Sản phẩm</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="order.html">
+          <i class="ti-truck"></i>
+          <span>Quản lý đơn hàng</span>
+        </a>
+      </li>
+      <li>
+        <a href="user.html" class="active">
+          <i class="ti-truck"></i>
+          <span>Quản lý tài khoản</span>
+        </a>
+      </li>
+      <li class="sidebar-submenu">
+        <a href="" class="sidebar-menu-dropdown">
+          <i class="ti-files"></i>
+          <span>Quản lý bài viết</span>
+          <div class="dropdown-icon"></div>
+        </a>
+        <ul class="sidebar-menu sidebar-menu-dropdown-content">
+          <li>
+            <a href="#">Giới thiệu</a>
+          </li>
+          <li>
+            <a href="#">Tại sao chọn chúng tôi</a>
+          </li>
+          <li>
+            <a href="#">Cảm nhận khách hàng</a>
+          </li>
+          <li>
+            <a href="#">Tin tức</a>
+          </li>
+          <li>
+            <a href="#">Chính sách</a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar-submenu">
+        <a href="" class="sidebar-menu-dropdown">
+          <i class="ti-email"></i>
+          <span>Quản lý nhận tin</span>
+          <div class="dropdown-icon"></div>
+        </a>
+        <ul class="sidebar-menu sidebar-menu-dropdown-content">
+          <li>
+            <a href="#">Đăng ký nhận tin</a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar-submenu">
+        <a href="" class="sidebar-menu-dropdown">
+          <i class="ti-bookmark"></i>
+          <span>Quản lý trang tĩnh</span>
+          <div class="dropdown-icon"></div>
+        </a>
+        <ul class="sidebar-menu sidebar-menu-dropdown-content">
+          <li>
+            <a href="#">slogan</a>
+          </li>
+          <li>
+            <a href="#">slogan menu</a>
+          </li>
+          <li>
+            <a href="#">slogan tại sao chọn chúng tôi</a>
+          </li>
+          <li>
+            <a href="#">slogan album ảnh</a>
+          </li>
+          <li>
+            <a href="#">slogan tin tức</a>
+          </li>
+          <li>
+            <a href="#">Liên hệ</a>
+          </li>
+          <li>
+            <a href="#">fotter</a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar-submenu">
+        <a href="" class="sidebar-menu-dropdown">
+          <i class="ti-camera"></i>
+          <span>Quản lý hình ảnh - video</span>
+          <div class="dropdown-icon"></div>
+        </a>
+        <ul class="sidebar-menu sidebar-menu-dropdown-content">
+          <li>
+            <a href="#">Logo</a>
+          </li>
+          <li>
+            <a href="#">Banner quảng cáo</a>
+          </li>
+          <li>
+            <a href="#">favicon</a>
+          </li>
+          <li>
+            <a href="#">slideshow</a>
+          </li>
+          <li>
+            <a href="#">Album ảnh</a>
+          </li>
+          <li>
+            <a href="#">Mạng xã hội</a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar-submenu">
+        <a href="" class="sidebar-menu-dropdown">
+          <i class="ti-user"></i>
+          <span>Quản lý user</span>
+          <div class="dropdown-icon"></div>
+        </a>
+        <ul class="sidebar-menu sidebar-menu-dropdown-content">
+          <li>
+            <a href="#">Thông tin admin</a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar-submenu">
+        <a href="" class="sidebar-menu-dropdown">
+          <i class="ti-layout-slider-alt"></i>
+          <span>Page</span>
+          <div class="dropdown-icon"></div>
+        </a>
+        <ul class="sidebar-menu sidebar-menu-dropdown-content">
+          <li>
+            <a href="#">Error 404</a>
+          </li>
+          <li>
+            <a href="#">Error 500</a>
+          </li>
+          <li>
+            <a href="#">Hình ảnh</a>
+          </li>
+          <li>
+            <a href="#">Tin tức sự kiện</a>
+          </li>
+          <li>
+            <a href="#">Liên hệ</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="">
+          <i class="ti-pulse"></i>
+          <span>Thiết lập thông tin</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- end side bar  -->
+  <!-- main content -->
+  <div class="main">
+    <div class="main-header">
+      <div class="mobile-toggle" id="mobile-toggle">
+        <i class="ti-menu"></i>
+      </div>
+      <div class="main-title">Quản lý Khách hàng</div>
+    </div>
+    <div class="main-content">
+      <div class="row">
+        <div class="col-12">
+          <!-- ORDERS TABLE -->
+          <div class="box">
+            <div class="box-header">
+              <div class="box-text">
+                <p>Thông tin khách hàng</p>
+                <div class="data-time">
+                  <span>Ngày tạo: 12/12/2001</span>
+                  <span>cập nhập lần cuối: 12/12/2001</span>
                 </div>
               </div>
-              <div class="box-body">
-                <div class="row">
-                  <div class="col-7">
-                    <div class="row">
-                      <div class="col-6">
-                        <div class="form-group">
-                          <label class="form-label">ID</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            value="12"
-                            disabled
-                          />
-                        </div>
-                      </div>
-                      <div class="col-6">
-                        <div class="form-group">
-                          <label class="form-label">Name</label>
-                          <input type="text" class="form-control" />
-                        </div>
+            </div>
+            <div class="box-body">
+              <div class="row">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="form-group">
+                        <label class="form-label">Username</label>
+                        <input type="text" class="form-control" value="12" disabled />
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-6">
-                        <div class="form-group">
-                          <label class="form-label">Ngày tạo</label>
-                          <input type="date" class="form-control" />
-                        </div>
-                      </div>
-                      <div class="col-6">
-                        <div class="form-group">
-                          <label class="form-label">Ngày sửa</label>
-                          <input type="date" class="form-control" />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-6">
-                        <div class="form-group">
-                          <label class="form-label">Loại sản phẩm</label>
-                          <select class="selection">
-                            <option value="">Chọn loại sản phẩm</option>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="col-6">
-                        <div class="form-group">
-                          <label class="form-label">Hãng</label>
-                          <select class="selection">
-                            <option value="">Chọn hãng</option>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                          </select>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-12">
-                        <div class="form-group">
-                          <label class="form-label" for="OrderNotes">
-                            Description
-                          </label>
-                          <textarea
-                            name="OrderNotes"
-                            id="OrderNotes"
-                            cols="30"
-                            rows="7"
-                            class="form-textarea"
-                          ></textarea>
-                        </div>
+                    <div class="col-6">
+                      <div class="form-group">
+                        <label class="form-label">Họ và tên</label>
+                        <input type="text" class="form-control" />
                       </div>
                     </div>
                   </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="form-group">
+                        <label class="form-label">Email</label>
+                        <input type="text" class="form-control" />
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-group">
+                        <label class="form-label">Ngày sinh</label>
+                        <input type="date" class="form-control" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="form-group">
+                        <label class="form-label">Giới tính</label>
+                        <input type="radio" name="gender" id="Male" value="male" class="form-radio"> 
+                        <label for="Male" class="form-label">Nam</label>
+                        <input type="radio" name="gender" id="Famle" value="famle" class="form-radio">  
+                        <label for="Famle" class="form-label">Nữ</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="form-group">
+                        <label class="form-label" for="OrderNotes">
+                          Địa chỉ
+                        </label>
+                        <textarea cols="30" rows="7" class="form-textarea"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-                  <div class="col-5">
-                    <div class="row">
-                      <div class="col-12">
-                        <div class="box">
-                          <div class="box-header">
-                            Hình ảnh sản phẩm <br />
-                            <label for="image1">
-                              <img
-                                src="images/product10.jpg"
-                                width="50%"
-                                alt=""
-                              />
-                            </label>
-                            <div class="form-group">
-                              <input
-                                type="file"
-                                class="form-control-file"
-                                id="image1"
-                              />
-                            </div>
-                            <label for="image2">
-                              <img
-                                src="images/product10.jpg"
-                                width="50%"
-                                alt=""
-                              />
-                            </label>
-                            <div class="form-group">
-                              <input
-                                type="file"
-                                class="form-control-file"
-                                id="image2"
-                              />
-                            </div>
-                          </div>
-                        </div>
+                
+              </div>
+            </div>
+            <!-- <div class="box-footer box-btn">
+              <button class="btn btn-primary btn-icon-text">Lưu</button>
+              <button class="btn btn-success btn-icon-text">
+                Lưu lại trang
+              </button>
+              <button class="btn btn-danger btn-icon-text">Xóa tất cả</button>
+              <button class="btn btn-secondary btn-icon-text">Thoát</button>
+            </div> -->
+          </div>
+          <div class="box mt-32">
+            <div class="box-header">Danh sách đơn hàng</div>
+            <div class="box-body overflow-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Mã</th>
+                    <th>Họ tên</th>
+                    <th>Ngày đặt</th>
+                    <th>Hình thức thanh toán</th>
+                    <th>Tổng</th>
+                    <th>Tình trạng</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Tân Đại
+                      <div class="table-title">
+                        <a
+                          href="user-detail.html"
+                          class="mr-8 text-priamry"
+                        >
+                          <i class="ti-pencil-alt"></i>
+                          edit
+                        </a>
+                        <a href="" class="text-danger">
+                          <i class="ti-trash"></i>
+                          delete
+                        </a>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="box-footer box-btn">
-                <button class="btn btn-primary btn-icon-text">Lưu</button>
-                <button class="btn btn-success btn-icon-text">
-                  Lưu lại trang
-                </button>
-                <button class="btn btn-danger btn-icon-text">Xóa tất cả</button>
-                <button class="btn btn-secondary btn-icon-text">Thoát</button>
-              </div>
+                    </td>
+                    <td>2021-05-09</td>
+                    <td>Tiền mặt</td>
+                    <td>$123.45</td>
+                    <td>
+                      <span class="order-status order-ready"> Đã giao </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>2</td>
+                    <td>Tân Đại
+                      <div class="table-title">
+                        <a
+                          href="user-detail.html"
+                          class="mr-8 text-priamry"
+                        >
+                          <i class="ti-pencil-alt"></i>
+                          edit
+                        </a>
+                        <a href="" class="text-danger">
+                          <i class="ti-trash"></i>
+                          delete
+                        </a>
+                      </div>
+                    </td>
+                    <td>2021-05-09</td>
+                    <td>Tiền mặt</td>
+                    <td>$123.45</td>
+                    <td>
+                      <span class="order-status order-cancel"> đã hủy </span>
+                    </td>
+                  </tr>
+                  
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- end main content -->
-    <div class="overlay"></div>
+  </div>
+  <!-- end main content -->
+  <div class="overlay"></div>
 
-    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-    <script src="./js/app.js"></script>
-    <script src="./js/chart.js"></script>
-    <script src="./ckeditor/ckeditor.js"></script>
-    <script>
-      CKEDITOR.replace("OrderNotes");
-    </script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/chart.js"></script>
+  <script src="./ckeditor/ckeditor.js"></script>
+  <script>
+    CKEDITOR.replace("OrderNotes");
+  </script>
+</body>
+
 </html>
