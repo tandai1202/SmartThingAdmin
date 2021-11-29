@@ -43,12 +43,12 @@
           </a>
         </li>
         <li class="sidebar-submenu">
-          <a href="" class="sidebar-menu-dropdown active">
+          <a href="" class="sidebar-menu-dropdown">
             <i class="ti-layers-alt"></i>
             <span>Quản lý sản phẩm</span>
             <div class="dropdown-icon"></div>
           </a>
-          <ul class="sidebar-menu sidebar-menu-dropdown-content active">
+          <ul class="sidebar-menu sidebar-menu-dropdown-content">
             <li>
               <a href="#">Danh mục cấp 1</a>
             </li>
@@ -67,7 +67,7 @@
           </a>
         </li>
         <li>
-          <a href="user.html">
+          <a href="user.html" class="active">
             <i class="ti-truck"></i>
             <span>Quản lý tài khoản</span>
           </a>
@@ -216,7 +216,7 @@
         <div class="mobile-toggle" id="mobile-toggle">
           <i class="ti-menu"></i>
         </div>
-        <div class="main-title">Quản lý sản phẩm</div>
+        <div class="main-title">Quản lý tài khoản</div>
       </div>
       <div class="main-content">
         <div class="row">
@@ -241,42 +241,24 @@
               </div>
             </div>
           </div>
-          <div class="col-12">
-            <div class="box-light box-btn">
-              <select class="selection">
-                <option value="">Chọn danh mục</option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-              </select>
-
-              <select class="selection">
-                <option value="">Chọn danh mục</option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-              </select>
-
-              <select class="selection">
-                <option value="">Chọn hãng</option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-              </select>
+          <!-- <div class="col-12">
+            <div class="row">
+              <div class="col-3">
+                <div class="form-group">
+                  <label class="form-label">Họ tên</label>
+                  <input type="text" class="form-control" />
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="form-group">
+                  <label class="form-label">Số điện thoại</label>
+                  <input type="text" class="form-control" />
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-3">
-            <div class="form-group box-light">
-              <label class="form-label">Từ</label>
-              <input type="date" class="form-control" />
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="form-group box-light">
-              <label class="form-label">Đến</label>
-              <input type="date" class="form-control" />
-            </div>
-          </div>
+          </div> -->
+        
+          
           <div class="col-12">
             <!-- ORDERS TABLE -->
             <div class="box">
@@ -285,44 +267,24 @@
                 <table>
                   <thead>
                     <tr>
-                      <th>
-                        <input type="checkbox" name="" id="" />
-                      </th>
                       <th>STT</th>
-                      <th>Hình</th>
-                      <th>Tiêu đề</th>
-                      <th class="text-center">Nổi bật</th>
-                      <th class="text-center">Bán chạy</th>
-                      <th class="text-center">Hiển thị</th>
+                      <th>Họ và tên</th>
+                      <th>Giới tính</th>
+                      <th class="text-center">Ngày sinh</th>
+                      <th class="text-center">SL Đơn hàng</th>
+                      <th class="text-center">Tổng tiền</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>
-                        <input type="checkbox" name="" id="" />
-                      </td>
-                      <td>
                         <input type="text" class="table-input" value="2" />
                       </td>
                       <td>
-                        <img
-                          src="images/product11.jpg"
-                          alt=""
-                          class="table-img"
-                        />
-                      </td>
-                      <td>
-                        Điện thoại
-                        <sup class="update-end"
-                          >cập nhập lần cuối: 12/12/22001</sup
-                        >
+                        Hoàng Tân Đại
                         <div class="table-title">
-                          <a href="" class="mr-8 text-priamry">
-                            <i class="ti-eye"></i>
-                            view
-                          </a>
                           <a
-                            href="product-detail.html"
+                            href="user-detail.html"
                             class="mr-8 text-priamry"
                           >
                             <i class="ti-pencil-alt"></i>
@@ -334,41 +296,26 @@
                           </a>
                         </div>
                       </td>
+                      <td>Nam</td>
                       <td class="text-center">
-                        <input type="checkbox" name="" id="" />
+                        29/07/2001
                       </td>
                       <td class="text-center">
-                        <input type="checkbox" name="" id="" />
+                        100
                       </td>
                       <td class="text-center">
-                        <input type="checkbox" name="" id="" />
+                        100
                       </td>
                     </tr>
 
                     <tr>
                       <td>
-                        <input type="checkbox" name="" id="" />
-                      </td>
-                      <td>
                         <input type="text" class="table-input" value="2" />
                       </td>
                       <td>
-                        <img
-                          src="images/product11.jpg"
-                          alt=""
-                          class="table-img"
-                        />
-                      </td>
-                      <td>
-                        Điện thoại<sup class="update-end"
-                          >cập nhập lần cuối: 12/12/22001</sup
-                        >
+                        Hoàng Tân Đại
                         <div class="table-title">
-                          <a href="" class="mr-8 text-priamry">
-                            <i class="ti-eye"></i>
-                            view
-                          </a>
-                          <a href="" class="mr-8 text-priamry">
+                          <a href="user-detail.html" class="mr-8 text-priamry">
                             <i class="ti-pencil-alt"></i>
                             edit
                           </a>
@@ -378,21 +325,22 @@
                           </a>
                         </div>
                       </td>
+                      <td>Nam</td>
                       <td class="text-center">
-                        <input type="checkbox" name="" id="" />
+                        29/07/2001
                       </td>
                       <td class="text-center">
-                        <input type="checkbox" name="" id="" />
+                        100
                       </td>
                       <td class="text-center">
-                        <input type="checkbox" name="" id="" />
+                        100
                       </td>
                     </tr>
                   </tbody>
                 </table>
+
+                
               </div>
-            </div>
-            <div class="box">
               <ul class="pagination">
                 <li>
                   <a href="#"><i class="ti-angle-left"></i></a>
@@ -406,6 +354,9 @@
                   <a href="#"><i class="ti-angle-right"></i></a>
                 </li>
               </ul>
+            </div>
+            <div class="box">
+              
             </div>
           </div>
         </div>

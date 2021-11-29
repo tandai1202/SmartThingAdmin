@@ -43,12 +43,12 @@
           </a>
         </li>
         <li class="sidebar-submenu">
-          <a href="" class="sidebar-menu-dropdown active">
+          <a href="" class="sidebar-menu-dropdown">
             <i class="ti-layers-alt"></i>
             <span>Quản lý sản phẩm</span>
             <div class="dropdown-icon"></div>
           </a>
-          <ul class="sidebar-menu sidebar-menu-dropdown-content active">
+          <ul class="sidebar-menu sidebar-menu-dropdown-content">
             <li>
               <a href="#">Danh mục cấp 1</a>
             </li>
@@ -67,7 +67,7 @@
           </a>
         </li>
         <li>
-          <a href="user.html">
+          <a href="user.html" class="active">
             <i class="ti-truck"></i>
             <span>Quản lý tài khoản</span>
           </a>
@@ -221,191 +221,144 @@
       <div class="main-content">
         <div class="row">
           <div class="col-12">
-            <div class="box-light box-btn">
-              <button class="btn btn-primary btn-icon-text">
-                <i class="ti-plus"></i>
-                Thêm
-              </button>
-              <button class="btn btn-danger btn-icon-text">
-                <i class="ti-trash"></i>
-                Xóa tất cả
-              </button>
-
-              <div class="form-search">
-                <div class="input-group">
-                  <input type="text" />
-                  <div class="icon">
-                    <i class="ti-search"></i>
+            <!-- ORDERS TABLE -->
+            <div class="box">
+              <div class="box-header">
+                <div class="box-text">
+                  <p>Chỉnh sửa thông tin</p>
+                  <div class="data-time">
+                    <span>Ngày tạo: 12/12/2001</span>
+                    <span>cập nhập lần cuối: 12/12/2001</span>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="box-light box-btn">
-              <select class="selection">
-                <option value="">Chọn danh mục</option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-              </select>
-
-              <select class="selection">
-                <option value="">Chọn danh mục</option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-              </select>
-
-              <select class="selection">
-                <option value="">Chọn hãng</option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="form-group box-light">
-              <label class="form-label">Từ</label>
-              <input type="date" class="form-control" />
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="form-group box-light">
-              <label class="form-label">Đến</label>
-              <input type="date" class="form-control" />
-            </div>
-          </div>
-          <div class="col-12">
-            <!-- ORDERS TABLE -->
-            <div class="box">
-              <div class="box-header">Danh mục sản phẩm</div>
-              <div class="box-body overflow-scroll">
-                <table>
-                  <thead>
-                    <tr>
-                      <th>
-                        <input type="checkbox" name="" id="" />
-                      </th>
-                      <th>STT</th>
-                      <th>Hình</th>
-                      <th>Tiêu đề</th>
-                      <th class="text-center">Nổi bật</th>
-                      <th class="text-center">Bán chạy</th>
-                      <th class="text-center">Hiển thị</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        <input type="checkbox" name="" id="" />
-                      </td>
-                      <td>
-                        <input type="text" class="table-input" value="2" />
-                      </td>
-                      <td>
-                        <img
-                          src="images/product11.jpg"
-                          alt=""
-                          class="table-img"
-                        />
-                      </td>
-                      <td>
-                        Điện thoại
-                        <sup class="update-end"
-                          >cập nhập lần cuối: 12/12/22001</sup
-                        >
-                        <div class="table-title">
-                          <a href="" class="mr-8 text-priamry">
-                            <i class="ti-eye"></i>
-                            view
-                          </a>
-                          <a
-                            href="product-detail.html"
-                            class="mr-8 text-priamry"
-                          >
-                            <i class="ti-pencil-alt"></i>
-                            edit
-                          </a>
-                          <a href="" class="text-danger">
-                            <i class="ti-trash"></i>
-                            delete
-                          </a>
+              <div class="box-body">
+                <div class="row">
+                  <div class="col-7">
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label class="form-label">ID</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            value="12"
+                            disabled
+                          />
                         </div>
-                      </td>
-                      <td class="text-center">
-                        <input type="checkbox" name="" id="" />
-                      </td>
-                      <td class="text-center">
-                        <input type="checkbox" name="" id="" />
-                      </td>
-                      <td class="text-center">
-                        <input type="checkbox" name="" id="" />
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td>
-                        <input type="checkbox" name="" id="" />
-                      </td>
-                      <td>
-                        <input type="text" class="table-input" value="2" />
-                      </td>
-                      <td>
-                        <img
-                          src="images/product11.jpg"
-                          alt=""
-                          class="table-img"
-                        />
-                      </td>
-                      <td>
-                        Điện thoại<sup class="update-end"
-                          >cập nhập lần cuối: 12/12/22001</sup
-                        >
-                        <div class="table-title">
-                          <a href="" class="mr-8 text-priamry">
-                            <i class="ti-eye"></i>
-                            view
-                          </a>
-                          <a href="" class="mr-8 text-priamry">
-                            <i class="ti-pencil-alt"></i>
-                            edit
-                          </a>
-                          <a href="" class="text-danger">
-                            <i class="ti-trash"></i>
-                            delete
-                          </a>
+                      </div>
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label class="form-label">Name</label>
+                          <input type="text" class="form-control" />
                         </div>
-                      </td>
-                      <td class="text-center">
-                        <input type="checkbox" name="" id="" />
-                      </td>
-                      <td class="text-center">
-                        <input type="checkbox" name="" id="" />
-                      </td>
-                      <td class="text-center">
-                        <input type="checkbox" name="" id="" />
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label class="form-label">Ngày tạo</label>
+                          <input type="date" class="form-control" />
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label class="form-label">Ngày sửa</label>
+                          <input type="date" class="form-control" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label class="form-label">Loại sản phẩm</label>
+                          <select class="selection">
+                            <option value="">Chọn loại sản phẩm</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label class="form-label">Hãng</label>
+                          <select class="selection">
+                            <option value="">Chọn hãng</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-group">
+                          <label class="form-label" for="OrderNotes">
+                            Description
+                          </label>
+                          <textarea
+                            name="OrderNotes"
+                            id="OrderNotes"
+                            cols="30"
+                            rows="7"
+                            class="form-textarea"
+                          ></textarea>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-5">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="box">
+                          <div class="box-header">
+                            Hình ảnh sản phẩm <br />
+                            <label for="image1">
+                              <img
+                                src="images/product10.jpg"
+                                width="50%"
+                                alt=""
+                              />
+                            </label>
+                            <div class="form-group">
+                              <input
+                                type="file"
+                                class="form-control-file"
+                                id="image1"
+                              />
+                            </div>
+                            <label for="image2">
+                              <img
+                                src="images/product10.jpg"
+                                width="50%"
+                                alt=""
+                              />
+                            </label>
+                            <div class="form-group">
+                              <input
+                                type="file"
+                                class="form-control-file"
+                                id="image2"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="box">
-              <ul class="pagination">
-                <li>
-                  <a href="#"><i class="ti-angle-left"></i></a>
-                </li>
-                <li><a href="#" class="active">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li>
-                  <a href="#"><i class="ti-angle-right"></i></a>
-                </li>
-              </ul>
+              <div class="box-footer box-btn">
+                <button class="btn btn-primary btn-icon-text">Lưu</button>
+                <button class="btn btn-success btn-icon-text">
+                  Lưu lại trang
+                </button>
+                <button class="btn btn-danger btn-icon-text">Xóa tất cả</button>
+                <button class="btn btn-secondary btn-icon-text">Thoát</button>
+              </div>
             </div>
           </div>
         </div>
@@ -417,5 +370,9 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="./js/app.js"></script>
     <script src="./js/chart.js"></script>
+    <script src="./ckeditor/ckeditor.js"></script>
+    <script>
+      CKEDITOR.replace("OrderNotes");
+    </script>
   </body>
 </html>
