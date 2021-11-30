@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartThing Admin</title>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css" />
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./css/grid.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+  <!-- side bar  -->
+  <div class="sidebar">
+    <div class="sidebar-logo">
+      <h3>Sramt Thing</h3>
+      <div class="sidebar-close" id="sidebar-close">
+        <i class="ti-arrow-left"></i>
+      </div>
+    </div>
+    <div class="sidebar-user">
+      <div class="sidebar-user-info">
+        <img src="./images/avatar.png" alt="User" class="profile-image" />
+        <div class="sidebar-user-name">Tan Dai</div>
+      </div>
+      <a href="" class="btn btn-outline">
+        <i class="ti-power-off"></i>
+      </a>
+    </div>
+    <ul class="sidebar-menu">
+      <li>
+        <a href="index.html">
+          <i class="ti-home"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li class="sidebar-submenu">
+        <a href="" class="sidebar-menu-dropdown">
+          <i class="ti-layers-alt"></i>
+          <span>Quản lý sản phẩm</span>
+          <div class="dropdown-icon"></div>
+        </a>
+        <ul class="sidebar-menu sidebar-menu-dropdown-content">
+          <li>
+            <a href="#">Danh mục cấp 1</a>
+          </li>
+          <li>
+            <a href="#">Danh mục cấp 2</a>
+          </li>
+          <li>
+            <a href="product.html">Sản phẩm</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="order.html">
+          <i class="ti-truck"></i>
+          <span>Quản lý đơn hàng</span>
+        </a>
+      </li>
+      <li>
+        <a href="user.html">
+          <i class="ti-truck"></i>
+          <span>Quản lý tài khoản</span>
+        </a>
+      </li>
+      <li>
+        <a href="voucher.html" class="active">
+          <i class="ti-truck"></i>
+          <span>Quản lý voucher</span>
+        </a>
+      </li>
+      <li class="sidebar-submenu">
+        <a href="" class="sidebar-menu-dropdown">
+          <i class="ti-files"></i>
+          <span>Quản lý bài viết</span>
+          <div class="dropdown-icon"></div>
+        </a>
+        <ul class="sidebar-menu sidebar-menu-dropdown-content">
+          <li>
+            <a href="#">Giới thiệu</a>
+          </li>
+          <li>
+            <a href="#">Tại sao chọn chúng tôi</a>
+          </li>
+          <li>
+            <a href="#">Cảm nhận khách hàng</a>
+          </li>
+          <li>
+            <a href="#">Tin tức</a>
+          </li>
+          <li>
+            <a href="#">Chính sách</a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar-submenu">
+        <a href="" class="sidebar-menu-dropdown">
+          <i class="ti-email"></i>
+          <span>Quản lý nhận tin</span>
+          <div class="dropdown-icon"></div>
+        </a>
+        <ul class="sidebar-menu sidebar-menu-dropdown-content">
+          <li>
+            <a href="#">Đăng ký nhận tin</a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar-submenu">
+        <a href="" class="sidebar-menu-dropdown">
+          <i class="ti-bookmark"></i>
+          <span>Quản lý trang tĩnh</span>
+          <div class="dropdown-icon"></div>
+        </a>
+        <ul class="sidebar-menu sidebar-menu-dropdown-content">
+          <li>
+            <a href="#">slogan</a>
+          </li>
+          <li>
+            <a href="#">slogan menu</a>
+          </li>
+          <li>
+            <a href="#">slogan tại sao chọn chúng tôi</a>
+          </li>
+          <li>
+            <a href="#">slogan album ảnh</a>
+          </li>
+          <li>
+            <a href="#">slogan tin tức</a>
+          </li>
+          <li>
+            <a href="#">Liên hệ</a>
+          </li>
+          <li>
+            <a href="#">fotter</a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar-submenu">
+        <a href="" class="sidebar-menu-dropdown">
+          <i class="ti-camera"></i>
+          <span>Quản lý hình ảnh - video</span>
+          <div class="dropdown-icon"></div>
+        </a>
+        <ul class="sidebar-menu sidebar-menu-dropdown-content">
+          <li>
+            <a href="#">Logo</a>
+          </li>
+          <li>
+            <a href="#">Banner quảng cáo</a>
+          </li>
+          <li>
+            <a href="#">favicon</a>
+          </li>
+          <li>
+            <a href="#">slideshow</a>
+          </li>
+          <li>
+            <a href="#">Album ảnh</a>
+          </li>
+          <li>
+            <a href="#">Mạng xã hội</a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar-submenu">
+        <a href="" class="sidebar-menu-dropdown">
+          <i class="ti-user"></i>
+          <span>Quản lý user</span>
+          <div class="dropdown-icon"></div>
+        </a>
+        <ul class="sidebar-menu sidebar-menu-dropdown-content">
+          <li>
+            <a href="#">Thông tin admin</a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar-submenu">
+        <a href="" class="sidebar-menu-dropdown">
+          <i class="ti-layout-slider-alt"></i>
+          <span>Page</span>
+          <div class="dropdown-icon"></div>
+        </a>
+        <ul class="sidebar-menu sidebar-menu-dropdown-content">
+          <li>
+            <a href="#">Error 404</a>
+          </li>
+          <li>
+            <a href="#">Error 500</a>
+          </li>
+          <li>
+            <a href="#">Hình ảnh</a>
+          </li>
+          <li>
+            <a href="#">Tin tức sự kiện</a>
+          </li>
+          <li>
+            <a href="#">Liên hệ</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="">
+          <i class="ti-pulse"></i>
+          <span>Thiết lập thông tin</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- end side bar  -->
+  <!-- main content -->
+  <div class="main">
+    <div class="main-header">
+      <div class="mobile-toggle" id="mobile-toggle">
+        <i class="ti-menu"></i>
+      </div>
+      <div class="main-title">Quản lý voucher</div>
+    </div>
+    <div class="main-content">
+      <div class="row">
+        <div class="col-12">
+          <!-- ORDERS TABLE -->
+          <div class="box">
+            <div class="box-header">
+              <div class="box-text">
+                <p>Thông tin</p>
+                <div class="data-time">
+                  <span>Ngày tạo: 12/12/2001</span>
+                  <span>cập nhập lần cuối: 12/12/2001</span>
+                </div>
+              </div>
+            </div>
+            <div class="box-body">
+              <div class="row">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-3">
+                      <div class="form-group">
+                        <label class="form-label">Mã đợt phát hành</label>
+                        <input type="text" class="form-control" value="12" disabled />
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="form-group">
+                        <label class="form-label">Tên đợt phát hành</label>
+                        <input type="text" class="form-control" />
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="form-group">
+                        <label class="form-label">Mệnh tiền</label>
+                        <input type="text" class="form-control" />
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="form-group">
+                        <label class="form-label">Tổng tiền tối thiểu</label>
+                        <input type="text" class="form-control" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3">
+                      <div class="form-group">
+                        <label class="form-label">Từ ngày</label>
+                        <input type="date" class="form-control" />
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="form-group">
+                        <label class="form-label">Đến ngày</label>
+                        <input type="date" class="form-control" />
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="form-group">
+                        <label class="form-label">Trạng thái</label>
+                        <select class="selection">
+                          <option value="">Kích hoạt</option>
+                          <option value="">Chưa áp dụng</option>
+                          <option value="">Tất cả</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="form-group">
+                        <label class="form-label">Hàng/ nhóm mua hàng</label>
+                        <select class="selection">
+                          <option value="">Tất cả nhóm hàng</option>
+                          <option value="">Điện thoại</option>
+                          <option value="">Laptop</option>
+                          <option value="">Đồng hồ</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="form-group">
+                        <label class="form-label" for="OrderNotes">
+                          Ghi chú
+                        </label>
+                        <textarea name="OrderNotes" id="OrderNotes" cols="30" rows="7" class="form-textarea"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="box-footer box-btn">
+              <button class="btn btn-primary btn-icon-text">Lưu</button>
+              <button class="btn btn-success btn-icon-text">
+                Lưu lại trang
+              </button>
+              <button class="btn btn-danger btn-icon-text">Xóa tất cả</button>
+              <button class="btn btn-secondary btn-icon-text">Thoát</button>
+            </div>
+          </div>
+          <div class="box mt-32">
+            <div class="box-header">Lịch sử sử dụng</div>
+            <div class="box-body overflow-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Mã Phiếu</th>
+                    <th>Thời gian</th>
+                    <th>Người bán</th>
+                    <th>Người sử dụng</th>
+                    <th>Doanh thu</th>
+                    <th>Giá trị voucher</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>2.860.000</td>
+                    <td>150.000</td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a href="" class="text-link">HD001</a>
+                    </td>
+                    <td>08/05/2020 09:24</td>
+                    <td>Admin</td>
+                    <td>Tân Đại</td>
+                    <td>660.000</td>
+                    <td>50.000</td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a href="" class="text-link">HD001</a>
+                    </td>
+                    <td>08/05/2020 09:24</td>
+                    <td>Admin</td>
+                    <td>Tân Đại</td>
+                    <td>660.000</td>
+                    <td>50.000</td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a href="" class="text-link" >HD001</a>
+                      <button id="myBtn">Open Modal</button>
+                    </td>
+                    <td>08/05/2020 09:24</td>
+                    <td>Admin</td>
+                    <td>Tân Đại</td>
+                    <td>660.000</td>
+                    <td>50.000</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-text">
+        <h1>Hóa đơn</h1>
+        <span class="close">&times;</span>
+      </div>
+      <div class="modal-box">
+        <div class="row">
+          <div class="col-4">
+            <div class="modal-group">
+              <label for="" class="modal-label">Mã hóa đơn</label>
+              <span class="modal-span">HD001</span>
+            </div>
+            <div class="modal-group">
+              <label for="" class="modal-label">Thời gian</label>
+              <span class="modal-span">08/05/2020 09:24</span>
+            </div>
+            <div class="modal-group">
+              <label for="" class="modal-label">Khách hàng</label>
+              <span class="modal-span">Tân Đại</span>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="modal-group">
+              <label for="" class="modal-label">Trạng thái</label>
+              <span class="modal-span">Hoàn thành</span>
+            </div>
+            <div class="modal-group">
+              <label for="" class="modal-label">Người bán</label>
+              <span class="modal-span">Admin</span>
+            </div>
+            <div class="modal-group">
+              <label for="" class="modal-label">Người tạo</label>
+              <span class="modal-span">Admin</span>
+            </div>
+          </div>
+          <div class="col-4">
+              <div class="model-desc">
+                <p class="model-decs__text">Ghi chú</p>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="box-body overflow-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Mã Hàng</th>
+                    <th>Tên hàng</th>
+                    <th>Số lượng</th>
+                    <th>Đơn giá</th>
+                    <th>Giảm giá</th>
+                    <th>Thành tiền</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      HD0001
+                    </td>
+                    <td>Samsung Galaxy A52s 5G 256GB</td>
+                    <td>Admin</td>
+                    <td>Tân Đại</td>
+                    <td>660.000</td>
+                    <td>50.000</td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      HD0001
+                    </td>
+                    <td>Samsung Galaxy A52s 5G 256GB</td>
+                    <td>Admin</td>
+                    <td>Tân Đại</td>
+                    <td>660.000</td>
+                    <td>50.000</td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      HD0001
+                    </td>
+                    <td>Samsung Galaxy A52s 5G 256GB</td>
+                    <td>Admin</td>
+                    <td>Tân Đại</td>
+                    <td>660.000</td>
+                    <td>50.000</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+              <div class="modal-order-total">
+                <ul class="modal-list">
+                  <li class="model-item">
+                    <p>Tổng số lượng</p>
+                    <span>2</span>
+                  </li>
+                  <li class="model-item">
+                    <p>Giảm giá</p>
+                    <span>200.000</span>
+                  </li>
+                  <li class="model-item">
+                    <p>Tổng tiền</p>
+                    <span>25.000.000</span>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+  <script>
+    var modal = document.getElementById("myModal");
+    
+    var btn = document.getElementById("myBtn");
+    
+    var span = document.getElementsByClassName("close")[0];
+    
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+  <!-- end main content -->
+  <div class="overlay"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/chart.js"></script>
+</body>
+
+</html>

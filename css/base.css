@@ -74,6 +74,10 @@ button + button {
   margin-right: 8px;
 }
 
+.text-link {
+  color: var(--priamry);
+}
+
 .text-uppercase {
   text-transform: uppercase;
 }
